@@ -8,7 +8,7 @@ const Headers = () => {
         <section className='font-Poppins'>
             <div className='bg-[#6A4ADF] h-14 hidden md:block '>
                 <div className='container mx-auto  '>
-                    <header className='flex justify-between items-center md:gap-[16%] lgg:gap-[10%] xl:gap-[5%]'>
+                    <header className='flex justify-between lg:pt-1.5 items-center md:gap-[16%] lgg:gap-[10%] xl:gap-[5%]'>
                         <div className='w-[20%] '>
                             <h5 className='text-white text-xl'>Platform</h5>
                             <div>

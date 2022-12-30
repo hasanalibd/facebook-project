@@ -1,8 +1,11 @@
 import React from 'react';
 import { BookmarksIcon, ConnectionsIcon, ExploreIcon, HomeIcon, MessagesIcon, NotificationsIcon, Themeicon } from '../Svg/Svg';
 import notifi from './img/notifications.png'
-import { CiSettings } from "react-icons/ci";
+import { CiSettings} from "react-icons/ci";
 import { SiSmartthings } from "react-icons/si";
+import { BsDisplay } from "react-icons/bs";
+import { FcAbout } from "react-icons/fc";
+
 
 const LeftSide = () => {
     return (
@@ -23,6 +26,29 @@ const LeftSide = () => {
                     </span>
                     <span>Home</span>
                 </h6>
+
+                <h6 className='py-3 px-7  rounded-t-xl hover:text-[#6A4ADF] hover:bg-[#E5DDF1] flex items-center gap-5 font-bold'>
+                    <span>
+                        <BsDisplay className='text-2xl'></BsDisplay>
+                    </span>
+                    <span>Media</span>
+                </h6>
+
+                <h6 className='py-3 px-7  hover:text-[#6A4ADF] hover:bg-[#E5DDF1] flex items-center gap-5 font-bold'>
+                    <span>
+                        <MessagesIcon className={'w-7'}></MessagesIcon>
+                    </span>
+                    <span>Message</span>
+                </h6>
+
+                <h6 className='py-3 px-7  rounded-t-xl hover:text-[#6A4ADF] hover:bg-[#E5DDF1] flex items-center gap-5 font-bold'>
+                    <span>
+                        <FcAbout className='text-2xl'></FcAbout>
+                    </span>
+                    <span>About</span>
+                </h6>
+
+                
                 <h6 className='py-3 px-7  hover:text-[#6A4ADF] hover:bg-[#E5DDF1] flex items-center gap-5 font-bold'>
                     <span>
 
@@ -37,16 +63,7 @@ const LeftSide = () => {
                     </span>
                     <span>Notifications</span>
                 </h6>
-                <h6 className='py-3 px-7  hover:text-[#6A4ADF] hover:bg-[#E5DDF1] flex items-center gap-5 font-bold'>
-                    <span>
-                        <MessagesIcon className={'w-7'}></MessagesIcon>
-
-                    </span>
-                    <span>
-
-                        Messages
-                    </span>
-                </h6>
+                
                 <h6 className='py-3 px-7  hover:text-[#6A4ADF] hover:bg-[#E5DDF1] flex items-center gap-5 font-bold'>
                     <span>
 
